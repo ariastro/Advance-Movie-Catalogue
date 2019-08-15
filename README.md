@@ -1,5 +1,7 @@
 # Advance Movie Catalogue
 
+<img src="https://travis-ci.org/ariastro/Advance-Movie-Catalogue.svg?branch=master"/>
+
 The advanced movie catalogue, using Kotlin & MVVM Pattern
 
 ## Screenshot
