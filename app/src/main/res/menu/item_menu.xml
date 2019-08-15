@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nowPlayingFragment"
+        android:title="@string/now_playing"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        />
+
+    <item
+        android:id="@+id/upcomingFragment"
+        android:title="@string/upcoming"
+        android:icon="@drawable/ic_movie_filter_black_24dp"
+        />
+
+</menu>
