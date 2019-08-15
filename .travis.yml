@@ -14,13 +14,10 @@ android:
 notifications:
   email: false
 
-before_install:
-  - chmod +x gradlew
-
 script:
   - ./gradlew build
   - ./gradlew clean
-# - ./gradlew build connectedCheck
+  - ./gradlew build connectedCheck
 #  - ./gradlew assemble check
 #  - ./gradlew checkstyle
 #  - ./gradlew build 
