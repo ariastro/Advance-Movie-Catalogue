@@ -1,6 +1,6 @@
 # Advance Movie Catalogue
 
-<img src="https://travis-ci.org/ariastro/Advance-Movie-Catalogue.svg?branch=master"/>
+<a href="https://travis-ci.org/ariastro/Advance-Movie-Catalogue"><img src="https://travis-ci.org/ariastro/Advance-Movie-Catalogue.svg?branch=master"></a>
 
 The advanced movie catalogue, using Kotlin & MVVM Pattern
 
