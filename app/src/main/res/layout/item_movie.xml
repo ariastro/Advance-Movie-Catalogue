@@ -7,7 +7,7 @@
 
         <variable
             name="itemMovie"
-            type="com.astronout.advancedmoviecatalogue.menu.viewmodels.ItemMovieViewModel" />
+            type="com.astronout.advancedmoviecatalogue.menu.item.viewmodels.ItemMovieViewModel" />
     </data>
 
     <RelativeLayout

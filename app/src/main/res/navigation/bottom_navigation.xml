@@ -24,7 +24,7 @@
 
         <argument
             android:name="data_detail_movies"
-            app:argType="com.astronout.advancedmoviecatalogue.models.Result"
+            app:argType="com.astronout.advancedmoviecatalogue.menu.models.Result"
             app:nullable="true"
             android:defaultValue="@null"/>
 
