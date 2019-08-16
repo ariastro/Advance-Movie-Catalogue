@@ -16,7 +16,7 @@ import com.astronout.advancedmoviecatalogue.R
 import com.astronout.advancedmoviecatalogue.databinding.FragmentUpcomingBinding
 import com.astronout.advancedmoviecatalogue.menu.adapter.MoviesAdapter
 import com.astronout.advancedmoviecatalogue.menu.upcoming.viewmodels.UpcomingViewModel
-import com.astronout.advancedmoviecatalogue.models.Result
+import com.astronout.advancedmoviecatalogue.menu.models.Result
 
 class UpcomingFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.astronout.advancedmoviecatalogue.models
+package com.astronout.advancedmoviecatalogue.menu.models
 
 
 import android.os.Parcelable

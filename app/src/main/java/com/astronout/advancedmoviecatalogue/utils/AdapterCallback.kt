@@ -1,7 +1,7 @@
 package com.astronout.advancedmoviecatalogue.utils
 
 import androidx.recyclerview.widget.DiffUtil
-import com.astronout.advancedmoviecatalogue.models.Result
+import com.astronout.advancedmoviecatalogue.menu.models.Result
 
 class AdapterCallback {
 

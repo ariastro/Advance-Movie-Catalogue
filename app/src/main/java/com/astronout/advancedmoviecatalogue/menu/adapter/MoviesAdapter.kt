@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.astronout.advancedmoviecatalogue.R
 import com.astronout.advancedmoviecatalogue.databinding.ItemMovieBinding
-import com.astronout.advancedmoviecatalogue.models.Result
+import com.astronout.advancedmoviecatalogue.menu.models.Result
 import com.astronout.advancedmoviecatalogue.utils.AdapterCallback
-import com.astronout.advancedmoviecatalogue.menu.viewmodels.ItemMovieViewModel
+import com.astronout.advancedmoviecatalogue.menu.item.viewmodels.ItemMovieViewModel
 
 class MoviesAdapter(val onClick:(Result) -> Unit): ListAdapter<Result, MoviesAdapter.MoviesViewHolder>(AdapterCallback.DiffListCallback) {
 

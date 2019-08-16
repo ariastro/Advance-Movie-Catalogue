@@ -13,7 +13,7 @@ import com.astronout.advancedmoviecatalogue.databinding.FragmentDetailMoviesBind
 import com.astronout.advancedmoviecatalogue.main.views.MainActivity
 import com.astronout.advancedmoviecatalogue.menu.detail.viewmodels.CustomDetailMovieViewModelFactory
 import com.astronout.advancedmoviecatalogue.menu.detail.viewmodels.DetailMovieViewModel
-import com.astronout.advancedmoviecatalogue.models.Result
+import com.astronout.advancedmoviecatalogue.menu.models.Result
 
 class DetailMoviesFragment : Fragment() {
 

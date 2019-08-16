@@ -1,4 +1,4 @@
-package com.astronout.advancedmoviecatalogue.models
+package com.astronout.advancedmoviecatalogue.menu.models
 
 
 import com.google.gson.annotations.SerializedName

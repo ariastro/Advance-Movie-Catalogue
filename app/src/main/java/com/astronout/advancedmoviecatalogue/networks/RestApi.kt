@@ -1,7 +1,7 @@
 package com.astronout.advancedmoviecatalogue.networks
 
 import com.astronout.advancedmoviecatalogue.BuildConfig
-import com.astronout.advancedmoviecatalogue.models.MoviesResponse
+import com.astronout.advancedmoviecatalogue.menu.models.MoviesResponse
 import io.reactivex.Observable
 import retrofit2.http.GET
 

@@ -1,6 +1,6 @@
 package com.astronout.advancedmoviecatalogue.networks.repositories
 
-import com.astronout.advancedmoviecatalogue.models.MoviesResponse
+import com.astronout.advancedmoviecatalogue.menu.models.MoviesResponse
 import com.astronout.advancedmoviecatalogue.networks.ApiObserver
 import com.astronout.advancedmoviecatalogue.networks.Service
 import io.reactivex.android.schedulers.AndroidSchedulers

@@ -3,7 +3,7 @@ package com.astronout.advancedmoviecatalogue.menu.detail.viewmodels
 import android.app.Application
 import androidx.databinding.ObservableField
 import androidx.lifecycle.AndroidViewModel
-import com.astronout.advancedmoviecatalogue.models.Result
+import com.astronout.advancedmoviecatalogue.menu.models.Result
 
 class DetailMovieViewModel(movieModel: Result?, application: Application) : AndroidViewModel(application) {
 

@@ -1,8 +1,8 @@
-package com.astronout.advancedmoviecatalogue.menu.viewmodels
+package com.astronout.advancedmoviecatalogue.menu.item.viewmodels
 
 import androidx.databinding.ObservableField
 import androidx.lifecycle.ViewModel
-import com.astronout.advancedmoviecatalogue.models.Result
+import com.astronout.advancedmoviecatalogue.menu.models.Result
 
 class ItemMovieViewModel(private val model: Result) : ViewModel() {
 

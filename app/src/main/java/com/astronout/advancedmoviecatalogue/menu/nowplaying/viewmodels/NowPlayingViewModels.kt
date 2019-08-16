@@ -3,7 +3,7 @@ package com.astronout.advancedmoviecatalogue.menu.nowplaying.viewmodels
 import androidx.databinding.ObservableField
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.astronout.advancedmoviecatalogue.models.MoviesResponse
+import com.astronout.advancedmoviecatalogue.menu.models.MoviesResponse
 import com.astronout.advancedmoviecatalogue.networks.repositories.MainRepository
 
 class NowPlayingViewModels: ViewModel() {
