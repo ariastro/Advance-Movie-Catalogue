@@ -2,19 +2,21 @@ package com.astronout.advancedmoviecatalogue.menu.models
 
 
 import android.os.Parcelable
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.IgnoredOnParcel
 import kotlinx.android.parcel.Parcelize
 
+const val MOVIES_ID = 0
+
+@Entity(tableName = "movies")
 @Parcelize
 data class Result(
     @SerializedName("adult")
     val adult: Boolean,
     @SerializedName("backdrop_path")
     val backdropPath: String,
-    @SerializedName("genre_ids")
-    val genreIds: List<Int>,
-    @SerializedName("id")
-    val id: Int,
     @SerializedName("original_language")
     val originalLanguage: String,
     @SerializedName("original_title")
@@ -35,4 +37,8 @@ data class Result(
     val voteAverage: Double,
     @SerializedName("vote_count")
     val voteCount: Int
-): Parcelable
+): Parcelable {
+    @IgnoredOnParcel
+    @PrimaryKey(autoGenerate = false)
+    var id: Int = MOVIES_ID
+}

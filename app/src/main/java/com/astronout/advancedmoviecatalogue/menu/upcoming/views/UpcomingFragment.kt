@@ -37,7 +37,7 @@ class UpcomingFragment : Fragment() {
         setUpRecyclerView()
         observeLiveData()
 
-        viewModel.getListUpcomingMovie()
+        viewModel.getListUpcomingMovie(this.context)
 
         return binding.root
     }

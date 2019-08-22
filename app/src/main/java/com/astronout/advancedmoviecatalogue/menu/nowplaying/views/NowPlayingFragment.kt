@@ -38,7 +38,7 @@ class NowPlayingFragment : Fragment() {
         setUpRecyclerView()
         observeLiveData()
 
-        viewModel.getListNowPlayingMovie()
+        viewModel.getListNowPlayingMovie(this.context)
 
         return binding.root
     }
