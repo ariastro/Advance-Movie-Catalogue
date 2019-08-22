@@ -10,7 +10,7 @@ The advanced movie catalogue, using Kotlin & MVVM Pattern
 
 ## List Libraries Used in this Project
 
-- Glide
-- RxJava
-- RxAndroid
-- Retrofit
+- <a href="https://github.com/bumptech/glide">Glide</a>
+- <a href="https://github.com/ReactiveX/RxJava">RxJava</a>
+- <a href="https://github.com/ReactiveX/RxAndroid">RxAndroid</a>
+- <a href="https://square.github.io/retrofit/">Retrofit</a>
