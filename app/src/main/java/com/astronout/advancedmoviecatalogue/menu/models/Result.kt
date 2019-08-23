@@ -8,9 +8,6 @@ import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.IgnoredOnParcel
 import kotlinx.android.parcel.Parcelize
 
-const val MOVIES_ID = 0
-
-@Entity(tableName = "movies")
 @Parcelize
 data class Result(
     @SerializedName("adult")
@@ -37,8 +34,4 @@ data class Result(
     val voteAverage: Double,
     @SerializedName("vote_count")
     val voteCount: Int
-): Parcelable {
-    @IgnoredOnParcel
-    @PrimaryKey(autoGenerate = false)
-    var id: Int = MOVIES_ID
-}
+): Parcelable
